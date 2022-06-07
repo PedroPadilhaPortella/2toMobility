@@ -1,0 +1,12 @@
+<input type="text" id="campo">
+<p id="paragrafo"></p>
+
+
+<script>
+    const campo = document.querySelector('#campo');
+    const paragrafo = document.querySelector('#paragrafo');
+
+    campo.addEventListener('keyup', function () {
+        paragrafo.innerHTML = campo.value;
+    });
+</script>

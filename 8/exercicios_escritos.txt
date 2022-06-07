@@ -1,0 +1,6 @@
+Serviços Web são aplicações desenvolvidas para a Web, que utilizam padrões com Http e Soap para se comunicar entre si, Serviços Web Restful são serviços que implementam o padrão Rest em suas aplicações. 
+Restful significa que a aplicação possui uma série de princípios de Arquitetura recomendados para a construção de uma API, como por exemplo, o uso dos verbos do Http (Get, Put, Post, Delete), os códigos de status (200, 400, 404, 500), e Hateoas.
+
+Http é um protocolo de comunicação utilizado para a transferencia de dados na web, é o protocolo que os web services utilizam ao se comunicar com a arquitetura Rest.
+
+A Arquitetura de Microsserviços é, diferente das da Arquitetura Monoliticas, uma maneira de desenvolver serviços de modo mais desacoplado, a partir de pequenos serviços independentes que se comunicam entre si.
